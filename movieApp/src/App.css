@@ -1,0 +1,108 @@
+
+  #card{
+    display:inline-flex;
+    justify-content: center;
+    justify-items: center;
+   
+    margin:70px;
+    
+  }
+  #cardd{
+    margin-top:90px;
+    justify-items: center;
+  }
+  .card:hover {
+  
+    transform: translateY(-4px);
+  }
+  .taille{
+    width:200px;
+    height: 200px;
+  }
+
+    #input1{
+     
+      margin: 10px;
+    }
+    #cc{
+      display:flex;
+      margin-top:20px;
+      margin-left:10px;
+    }
+   #btn{
+     margin-left:30px;
+     margin-top:10px;
+     height: 40px;
+    
+   }
+
+
+.add{
+  margin-top: 150px;
+}
+h1{
+  text-align: center;
+  font-style: italic;
+  padding-top:20px;
+  color: rgb(148, 10, 10)
+}
+#cc,#filt{
+  display: inline-flex;
+  margin-top:100px;
+}
+
+#mod{
+  display: flex;
+ margin-top:50px;
+ margin-left:50px;
+  
+}
+.App{
+  background-color: black;
+}
+.titre{
+  text-align: center;
+  color: red;
+}
+#star{
+  cursor:pointer;
+  margin-left: 7px;
+  font-size:34px;}
+
+#star,#btn{
+  vertical-align: middle;
+}
+#buttadd{
+  background-color:black;
+  color: green;
+  border-color: green;
+  box-shadow:none;
+  
+}
+#buttad{
+  background-color:green;
+  color: white;
+  border-color: green;
+  
+}
+#navitem{
+  color: rgb(27, 221, 27)
+}
+#navitems{
+ color:rgb(4, 110, 4);
+  font-style: italic;
+  font-weight: bold;
+}
+.label{
+  display: flex;
+  color:green;
+}
+#addmovie{
+  color:green
+}
+.NavDropdown > title{
+  color:green
+}
+#posturl{
+  position: fixed;
+}
