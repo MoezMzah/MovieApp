@@ -59,7 +59,7 @@ class App extends React.Component {
             <div className="App">
               <h1>100 of the Most Popular Movies of All Time </h1>
 
-              <Navbar bg="light" expand="lg">
+              {/* <Navbar bg="light" expand="lg">
                 <Navbar.Brand id="navitems" href="#home">
                   FilmStreaming
                 </Navbar.Brand>
@@ -98,7 +98,7 @@ class App extends React.Component {
                     </NavDropdown>
                   </Nav>
                 </Navbar.Collapse>
-              </Navbar>
+              </Navbar> */}
               <Filter filtrer={this.filtrer} />
               <Rate filterByRate={this.filterByRate} />
               <AddMovie addmovie={this.addmovie} />

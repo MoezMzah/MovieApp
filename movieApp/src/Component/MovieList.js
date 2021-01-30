@@ -7,7 +7,7 @@ function MovieList({ movieliste, searchInput, searchRatee }) {
     ? movieliste.map((movie, i) => {
       console.log({movie})
         return (
-          <Link
+          <Link style={{textDecoration: "none"}}
             to={`/${movie.title}/${movie.description}/${movie.trailer}`}
           >
             <MovieCard movieliste={movie} />

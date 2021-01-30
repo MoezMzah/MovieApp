@@ -14,6 +14,7 @@
   .card:hover {
   
     transform: translateY(-4px);
+ 
   }
   .taille{
     width:200px;
@@ -44,7 +45,7 @@ h1{
   text-align: center;
   font-style: italic;
   padding-top:20px;
-  color: rgb(148, 10, 10)
+  color: rgb(7, 209, 7)
 }
 #cc,#filt{
   display: inline-flex;
@@ -62,7 +63,7 @@ h1{
 }
 .titre{
   text-align: center;
-  color: red;
+  color: rgb(7, 209, 7);
 }
 #star{
   cursor:pointer;
@@ -105,4 +106,10 @@ h1{
 }
 #posturl{
   position: fixed;
+}
+.text{
+color:black;
+}
+text.hover{
+  text-decoration: none;
 }

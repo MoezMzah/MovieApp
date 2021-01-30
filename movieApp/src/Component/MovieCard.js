@@ -14,11 +14,11 @@ function MovieCard({movieliste}){
   <Card.Img variant="top" className='taille' src={movieliste.image} />
   <Card.Body>
     <Card.Title className='titre'>{movieliste.title}</Card.Title>
-    <Card.Text>
+    <Card.Text className='text'>
     {movieliste.description} <br /> <br />
     <span>  <StarRating count={movieliste.rate} 
    /> </span><br /> <br />
-           <iframe  src={movieliste.trailer}  id='posturl'>  </iframe>
+           <a  src={movieliste.trailer}  id='posturl'>  </a>
     </Card.Text>
   </Card.Body>
 </Card>
